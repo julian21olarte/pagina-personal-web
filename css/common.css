@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  font-family: 'Cambria', 'Cochin', Georgia, Times, 'Times New Roman', serif;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+}
+.navbar li, .footer li {
+  list-style: none;
+}
+
+
+/** HEADER **/
+header, header nav, header nav ul {
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  background-color: tomato;
+  align-items: center;
+  box-shadow: 2px 3px 2px lightgray;
+}
+.navbar h4.navbar-title {
+  color: white;
+  font-size: 1.4em;
+  font-weight: bold;
+  width: 20%;
+  padding-left: 25px;
+}
+.navbar-list {
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+.navbar-list li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.navbar-list li {
+  padding: 25px;
+  transition: ease-in .15s all;
+}
+.navbar-list li:hover {
+  background-color: rgba(244, 67, 54, .6);
+}
+
+/** FOOTER **/
+footer {
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .9);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .footer-social {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.footer-social li {
+  padding: 15px;
+}
+footer .footer-copyright {
+  color: white;
+  font-weight: bold;
+  padding-right: 25px;
+}
+
+/** SECTIONS **/
+section.personal-info,
+section.skills-section,
+section.projects-section {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 25px;
+}
+article.panel {
+  font-size: 1.2em;
+  width: 95%;
+  min-height: 500px;
+  margin: 0 auto;
+  border: 1px solid lightgray;
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 50px;
+  display: flex;
+}

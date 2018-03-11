@@ -1,0 +1,228 @@
+* {
+    --html: 90%;
+    --css: 85%;
+    --js: 90%;
+    --java: 70%;
+    --php: 80%;
+    --node: 90%;
+    --sql: 75%;
+
+    --angular: 80%;
+    --cakephp: 60%;
+    --ionic: 85%;
+    --spring: 50%;
+    --bootstrap: 90%;
+    --jquery: 65%;
+}
+
+article.panel {
+   padding: 25px;
+}
+.skills-column {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills-column h4.skills-title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.skills-column > h5 {
+  font-size: .9em;
+  width: 70%;
+}
+
+.skill-bar {
+  height: 25px;
+  width: 70%;
+  background-color: rgb(199, 208, 218);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 2px 2px 3px gray;
+}
+
+.skill-bar-color {
+  width: 90%;
+  background-color: red;
+  height: 100%;
+  border-radius: 5px;
+}
+
+/** SKILL TECH  **/
+.skill-bar-color.html {
+  width: 90%;
+  background-color: orangered;
+  animation: fillHtml 1s ease-in;
+}
+.skill-bar-color.css {
+  width: 85%;
+  background-color: royalblue;
+  animation: fillCss 1s ease-in;
+}
+.skill-bar-color.js {
+  width: 90%;
+  background-color: gold;
+  animation: fillJs 1s ease-in;
+}
+.skill-bar-color.java {
+  width: 70%;
+  background-color: rgb(226, 11, 3);
+  animation: fillJava 1s ease-in;
+}
+.skill-bar-color.php {
+  width: 80%;
+  background-color: rgb(119, 123, 179);
+  animation: fillPhp 1s ease-in;
+}
+.skill-bar-color.node {
+  width: 90%;
+  background-color: rgb(111, 161, 2);
+  animation: fillNode 1s ease-in;
+}
+.skill-bar-color.sql {
+  width: 75%;
+  background-color: rgb(2, 150, 161);
+  animation: fillSql 1s ease-in;
+}
+
+
+/** SKILLS FRAMEWORKS **/
+.skill-bar-color.angular {
+  width: 80%;
+  background-color: red;
+  animation: fillAngular 1s ease-in;
+}
+.skill-bar-color.cakephp {
+  width: 60%;
+  background-color: rgb(122, 26, 167);
+  animation: fillCake 1s ease-in;
+}
+.skill-bar-color.ionic {
+  width: 85%;
+  background-color: rgb(0, 11, 163);
+  animation: fillIonic 1s ease-in;
+}
+.skill-bar-color.spring {
+  width: 50%;
+  background-color: rgb(103, 224, 103);
+  animation: fillSpring 1s ease-in;
+}
+.skill-bar-color.bootstrap {
+  width: 90%;
+  background-color: rgb(63, 1, 104);
+  animation: fillBootstrap 1s ease-in;
+}
+.skill-bar-color.jquery {
+  width: 65%;
+  background-color: rgb(199, 0, 0);
+  animation: fillJquery 1s ease-in;
+}
+
+
+/** KEYFRAMES SKILL-BARS **/
+@keyframes fillHtml {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--html);
+  }
+}
+@keyframes fillCss {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--css);
+  }
+}
+@keyframes fillJs {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--js);
+  }
+}
+@keyframes fillJava {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--java);
+  }
+}
+@keyframes fillPhp {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--php);
+  }
+}
+@keyframes fillNode {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--node);
+  }
+}
+@keyframes fillSql {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--sql);
+  }
+}
+@keyframes fillAngular {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--angular);
+  }
+}
+@keyframes fillCake {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--cakephp);
+  }
+}
+@keyframes fillIonic {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--ionic);
+  }
+}
+@keyframes fillSpring {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--spring);
+  }
+}
+@keyframes fillBootstrap {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--bootstrap);
+  }
+}
+@keyframes fillJquery {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--jquery);
+  }
+}

@@ -1,0 +1,32 @@
+.personal-img {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 6px 9px black;
+  transition: linear .5s all;
+}
+.personal-img img {
+  width: 200px;
+  height: 200px;
+}
+.personal-img:hover {
+  filter: sepia(80%);
+  transform: rotateY(180deg);
+}
+
+.personal-text {
+  margin-left: 25px;
+  height: 200px;
+  box-sizing: border-box;
+  padding: 0 30px;
+}
+.personal-text-field {
+  margin: 15px 0;
+}
+.personal-text-field li {
+  margin: 10px 0 10px 25px;
+}
+.personal-text-field p, .personal-text-field h4 {
+  display: inline;
+}

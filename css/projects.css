@@ -1,0 +1,38 @@
+.panel {
+  flex-direction: column;
+}
+.project-block {
+  width: 100%;
+  min-height: 200px;
+  margin: 50px 0;
+}
+
+.project-block p.project-description {
+  color: grey;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+.project-img-panel {
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+  margin-top: 15px;
+}
+
+.project-img-panel img.project-img {
+  height: 150px;
+  box-shadow: 2px 3px 6px grey;
+  cursor: pointer;
+  margin-right: 15px;
+}
+.project-link {
+  display: block;
+  color: gray;
+  font-size: 1em;
+  margin-top: 20px;
+  transition: linear .3s all;
+}
+.project-link:hover {
+  color: deepskyblue;
+}
