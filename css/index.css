@@ -1,3 +1,8 @@
+
+article.panel {
+  justify-content: center;
+  align-items: center;
+}
 .personal-img {
   border-radius: 50%;
   overflow: hidden;

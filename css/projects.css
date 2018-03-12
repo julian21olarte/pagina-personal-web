@@ -4,7 +4,9 @@
 .project-block {
   width: 100%;
   min-height: 200px;
-  margin: 50px 0;
+  margin: 0 0 50px 0;
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
 }
 
 .project-block p.project-description {
