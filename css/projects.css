@@ -12,6 +12,15 @@
   font-style: italic;
   margin-top: 8px;
 }
+.project-block > * {
+  margin: 20px 0;
+}
+.project-block ul {
+  margin-left: 20px;
+}
+.project-block ul li {
+  margin: 5px 0;
+}
 
 .project-img-panel {
   display: flex;

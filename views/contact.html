@@ -7,28 +7,54 @@
   <title>Contacto</title>
 
   <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/contact.css">
 </head>
 <body>
   
-    <header>
-        <nav class="navbar">
-          <h4 class="navbar-title">Pagina Personal</h4>
-          <ul class="navbar-list">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="skills.html">Conocimientos</a></li>
-            <li><a href="projects.html">Proyectos</a></li>
-            <li><a href="contact.html">Contacto</a></li>
-          </ul>
-        </nav>
-      </header>
+  <header>
+    <nav class="navbar">
+      <h4 class="navbar-title">Pagina Personal</h4>
+      <ul class="navbar-list">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="skills.html">Conocimientos</a></li>
+        <li><a href="projects.html">Proyectos</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact-section">
+    <article class="panel">
+      <div class="form-contact">
+        <h4>Contacto</h4>
+        <div class="form-group">
+          <!-- <label for="name">Nombre</label> -->
+          <input type="text" placeholder="Nombre" name="name" id="name"><br>
+        </div>
+        <div class="form-group">
+          <!-- <label for="email">Email</label> -->
+          <input type="email" placeholder="Email" name="email" id="email"><br>
+        </div>
+        <div class="form-group">
+          <!-- <label for="message">Mensaje</label> -->
+          <textarea name="message" placeholder="Mensaje" id="message" cols="30" rows="8"></textarea>
+        </div>
+        <div class="form-group">
+          <button type="button" class="submit">Enviar</button>
+        </div>
+      </div>
+    </article>
+  </section>
 
   <footer>
-      <ul class="footer-social">
-        <li><a href="https://www.facebook.com/julian21olarte">facebook</a></li>
-        <li><a href="https://twitter.com/julian21olarte?lang=es">Twitter</a></li>
-      </ul>
-      <h4 class="footer-copyright">Copyright 2018</h4>
-  </footer>
+    <ul class="footer-social">
+      <li><a class="facebook" href="https://www.facebook.com/julian21olarte" target="_blank"><i class="icon-facebook-f"></i></a></li>
+      <li><a class="twitter" href="https://twitter.com/julian21olarte?lang=es" target="_blank"><i class="icon-twitter"></i></a></li>
+      <li><a class="github" href="https://github.com/julian21olarte" target="_blank"><i class="icon-github"></i></a></li>
+      <li><a class="linkedin" href="https://www.linkedin.com/in/julian-olarte-torres-b8527952/" target="_blank"><i class="icon-linkedin"></i></a></li>
+    </ul>
+    <h4 class="footer-copyright">Copyright 2018</h4>
+</footer>
 
 
 </body>

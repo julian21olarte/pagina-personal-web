@@ -1,3 +1,5 @@
+@import "../fonts/style.css";
+
 * {
   margin: 0;
   padding: 0;
@@ -9,9 +11,9 @@ body {
 a {
   text-decoration: none;
   color: white;
-  font-size: 1.2em;
+  font-size: 1em;
 }
-.navbar li, .footer li {
+.navbar li, footer li {
   list-style: none;
 }
 
@@ -22,7 +24,7 @@ header, header nav, header nav ul {
 }
 .navbar {
   display: flex;
-  background-color: tomato;
+  background-color: rgb(228, 90, 66);
   align-items: center;
   box-shadow: 2px 3px 2px lightgray;
 }
@@ -40,15 +42,14 @@ header, header nav, header nav ul {
 }
 .navbar-list li a {
   display: block;
-  width: 100%;
-  height: 100%;
+  padding: 25px;
+  text-transform: uppercase;
 }
 .navbar-list li {
-  padding: 25px;
   transition: ease-in .15s all;
 }
 .navbar-list li:hover {
-  background-color: rgba(244, 67, 54, .6);
+  background-color: rgba(206, 46, 35, 0.863);
 }
 
 /** FOOTER **/
@@ -56,6 +57,7 @@ footer {
   bottom: 0;
   background-color: rgba(0, 0, 0, .9);
   width: 100%;
+  min-height: 100px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -68,16 +70,45 @@ footer .footer-social {
 .footer-social li {
   padding: 15px;
 }
+.footer-social li a i{
+  font-size: 1.2em;
+  width: 20px;
+  height: 20px;
+}
 footer .footer-copyright {
   color: white;
   font-weight: bold;
   padding-right: 25px;
 }
+.footer-social li a.facebook,
+.footer-social li a.twitter,
+.footer-social li a.github,
+.footer-social li a.linkedin {
+  width: 20px;
+  height: 20px;
+  padding: 20px;
+  background-color: transparent;
+  transition: linear .2s all;
+}
+.footer-social li a.facebook:hover {
+    background-color: rgb(66, 103, 178);
+}
+.footer-social li a.twitter:hover {
+  background-color: rgb(47, 194, 239);
+}
+.footer-social li a.github:hover {
+  background-color: rgb(36, 41, 46);
+}
+.footer-social li a.linkedin:hover {
+  background-color: rgb(0, 119, 181);
+}
+
 
 /** SECTIONS **/
 section.personal-info,
 section.skills-section,
-section.projects-section {
+section.projects-section,
+section.contact-section {
   width: 100%;
   min-height: 100vh;
   box-sizing: border-box;

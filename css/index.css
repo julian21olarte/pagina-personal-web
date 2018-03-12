@@ -3,7 +3,7 @@
   overflow: hidden;
   width: 200px;
   height: 200px;
-  box-shadow: 5px 6px 9px black;
+  box-shadow: 4px 4px 7px black;
   transition: linear .5s all;
 }
 .personal-img img {
@@ -29,4 +29,7 @@
 }
 .personal-text-field p, .personal-text-field h4 {
   display: inline;
+}
+.personal-text-field p {
+  text-transform: capitalize;
 }
